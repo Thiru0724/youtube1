@@ -16,6 +16,20 @@
     outline: none;
     border: 1px solid lightblue;
 }
+.navLinks{
+    display: flex;
+    align-items: center;
+}
+.navLinks a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: black;
+
+}
 .userOptions{
     display: flex;
     width: 150px;

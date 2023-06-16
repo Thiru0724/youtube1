@@ -1,0 +1,61 @@
+.addVideo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: url("https://th.bing.com/th/id/OIP.hU0MH8wTZ-JWi_XvtYl8uwHaFj?w=233&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    width: 50%;
+    height: 610px;
+    margin: 20px 0px 20px 150px;
+   
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+.content{
+    width: 50%;
+    height: 610px;
+    margin: 20px 150px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    /* border: 1px solid orange; */
+    border-radius: 0px 10px 10px 0px;  
+}
+.welcome{
+    padding: 130px 0px 20px 0px;
+}
+.welcome h1{
+    margin: 0px;
+    font-size: 30px;
+}
+.welcome p{
+    margin: 0px;
+}
+.formdetails label{
+    color: rgb(176, 173, 173);
+    font-size: 13px;
+}
+.formdetails span{
+    color: rgb(243, 40, 74);
+}
+.formdetails input{
+   border: none;
+   border-bottom: 1px solid rgb(221, 26, 59);
+   width: 270px;
+   margin-bottom: 10px;
+}
+.formdetails button{
+    margin-top: 40px;
+    padding: 7px 110px;
+    border-radius: 30px;
+    border: 1px solid rgb(221, 26, 59);
+    background-color: rgb(221, 26, 59);
+    color: white;
+}
